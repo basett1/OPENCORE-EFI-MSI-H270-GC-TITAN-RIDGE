@@ -18,7 +18,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 | iGPU             | Intel® Graphics HD 630             |
 | dGpu             | Sapphire pulse RX 580 8 GB         |
 | Audio            | Realtek ALC1220                    |
-| Ram              | 32 GB Vengeance                    |
+| Ram              | 32 GB Corsair Vengeance            |
 | Wifi + Bluetooth | Fenvi t919                         |
 | Lan              | Killer™ E2500 Gigabit LAN          |
 | Thunderbolt 3    | GC Titan Ridge V2                  |
