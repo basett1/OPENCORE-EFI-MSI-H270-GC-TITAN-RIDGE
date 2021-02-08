@@ -8,7 +8,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 
 ![descrizione](./Infos/pc.png)
 
-# The Motherboard don't have anythings related to Thunderbolt 3 but with our group we make it works :sunglasses: 
+# The Motherboard don't have anythings related to Thunderbolt 3 but with our group we make it works :sunglasses: Just hotplug is WIP
 
 ### Computer Spec:
 
