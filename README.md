@@ -2,12 +2,13 @@
 [![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
 [![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
 
-# H270 MSI GAMING M3 + I5 7600
+# H270 MSI GAMING M3 + I5 7600 + Thunderbolt 3 GC Titan Ridge
 
 EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 
 ![descrizione](./screenshot/pc.png)
 
+# The Motherboard don't have anythings related to Thunderbolt 3 but with our group we make it works :sunglasses: 
 
 ### Computer Spec:
 
@@ -71,6 +72,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 - SSDT-Hack Essential patch
 - Applied cosmetics PCI Dev
 - SSDT for GC Titan Ridge V2
+- Drom flash for GC Titan Ridge V2
 
 See [ioreg](https://github.com/Speeedo83/Gigabyte-Z390i-Aourus-WiFi-i7-8700k-Hackintosh/blob/main/iMac%20di%20Mario.ioreg) for more clarification
 
