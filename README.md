@@ -71,7 +71,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 - SSDT for GC Titan Ridge V2
 - Drom flash for GC Titan Ridge V2
 
-See [ioreg](link all'ioreg) for infos
+See [ioreg](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg) for infos
 
 ## Bios settings
 WIP
@@ -85,7 +85,8 @@ WIP
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
--[Lorys89] (link al git di lore) for the continuous support and for the cfg lock tools and info
+- [Lorys89] (https://github.com/Lorys89 for the continuous support and for the cfg lock tools and info
+- [MBarbierato] (https://github.com/mbarbierato) for the support and the infos about thunderbolt
 
 # If you need help please contact us on [Telegram](https://t.me/HackintoshLife_it) or [Web](https://www.hackintoshlife.it/)
 
