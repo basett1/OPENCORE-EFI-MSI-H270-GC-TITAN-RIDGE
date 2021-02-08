@@ -56,7 +56,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 ## Peripherals & Benchmarks
 
 ![infohack](./Infos/peripherals.png)
-![infopci](./Infos/pcilist.png)
+![infopci](./Infos/TB.png)
 ![CPU](./Infos/cputest.jpg)
 ![metal](./Infos/metal.jpg)
 ![opencl](./Infos/opencl.jpg)
