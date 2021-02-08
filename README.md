@@ -85,8 +85,8 @@ WIP
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
-- [Lorys89] (https://github.com/Lorys89 for the continuous support and for the cfg lock tools and info
-- [MBarbierato] (https://github.com/mbarbierato) for the support and the infos about thunderbolt
+- [Lorys89](https://github.com/Lorys89) for the continuous support and for the cfg lock tools and info
+- [MBarbierato](https://github.com/mbarbierato) for the support and the infos about thunderbolt
 
 # If you need help please contact us on [Telegram](https://t.me/HackintoshLife_it) or [Web](https://www.hackintoshlife.it/)
 
