@@ -12,22 +12,22 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 
 ### Computer Spec:
 
-| Component        | Brank                              |
-| ---------------- | ---------------------------------- |
-| CPU              | Intel i5-7600                      |
-| iGPU             | Intel® Graphics HD 630             |
-| dGpu             | Sapphire pulse RX 580 8 GB         |
-| Audio            | Realtek ALC1220                    |
-| Ram              | 32 GB Corsair Vengeance            |
-| Wifi + Bluetooth | Fenvi t919                         |
-| Lan              | Killer™ E2500 Gigabit LAN          |
-| Thunderbolt 3    | GC Titan Ridge V2                  |
-| NVMe             | Samsung 970 evo plus 1TB ( MacOS)  |
-| SSD Sata         | Kingston SSD 1TB (Windows)         |
-| SSD Sata         | Kingston a400 2 TB (shared storage)|
-| SmBios           | iMac 18,3                          |
-| BootLoader       | OpenCore 0.6.6                     |
-| macOS            | Big Sur 11.1                       |
+| Component        | Brank                                  |
+| ---------------- | ---------------------------------------|
+| CPU              | Intel i5-7600                          |
+| iGPU             | Intel® Graphics HD 630 (HEADLESS PATCH)|
+| dGpu             | Sapphire pulse RX 580 8 GB             |
+| Audio            | Realtek ALC1220                        |
+| Ram              | 32 GB Corsair Vengeance                |
+| Wifi + Bluetooth | Fenvi t919                             |
+| Lan              | Killer™ E2500 Gigabit LAN              |
+| Thunderbolt 3    | GC Titan Ridge V2                      |
+| NVMe             | Samsung 970 evo plus 1TB ( MacOS)      |
+| SSD Sata         | Kingston SSD 1TB (Windows)             |
+| SSD Sata         | Kingston a400 2 TB (shared storage)    |
+| SmBios           | iMac 18,3                              |
+| BootLoader       | OpenCore 0.6.6                         |
+| macOS            | Big Sur 11.1                           |
 
 
 
@@ -62,6 +62,91 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 ![opencl](./Infos/opencl.jpg)
 ![videoproc](./Infos/videoproc.png)
 
+# Bios settings
+# BIOS VERSION E7A62IMS.270 BUILD DATE 07/03/2018
+
+## Disable cfg lock
+
+To disable cfg lock use the provided kit.
+
+In the folder is provided a dump of BIOS E7A62IMS.270 version for references. 
+
+**THANKS TO [LORYS89](https://github.com/Lorys89) for the hints, BIOS dump and the kit**
+
+Declare tools in config.plist
+
+Reboot the system, when you are at Opencore run modGRUBShell.efi
+
+
+Type `setup_var 0x526`to interrogate, the result is `Offset 0x526 is: 0x01` this mean that the cfg lock is enabled
+
+Then type `setup_var 0x526 0x00`to write, the result is `Offset 0x526 is: 0x01 setting offset 0x526 to 0x00` this mean that the cfg lock is disabled
+
+Type `EXIT` to return to Opencore Bootloader, Reset nvram and use VerifyMsrE2.efi to check if the cfg lock is disabled.
+
+XMP **[OFF]**
+
+### SETTINGS\ADVANCED
+#### PCI Subsystem Settings
+
+PEG0 - Max Link Speed **[Auto]**
+PCI Latency Timer **[32 PCI Bus Clock]**
+Above 4g memory/Crypto Currency **[Disabled]**
+
+#### ACPI Settings
+Power LED **[Blinking]**
+
+#### Integrated Peripherals
+Onboard LAN Controller **[Enabled]**
+LAN Option ROM **[Disabled]**
+Network stacks **[Disabled]**
+
+SATA Mode **[AHCI Mode]**
+M.2/Optane Genie **[Disabled]**
+SATA 1|6 Hot Plug **[Disabled]**
+
+
+HD Audio Controller **[Enabled]**
+
+HPET **[Enabled]**
+
+Intel Serial I/O **[Disabled]**
+
+#### Integrated Graphics Configuration
+##### I use an headless patch for iGPU just for Apple continuity services
+Initiate Graphics Adapter **[PEG]**
+Integrated Graphics Share Memory **[128M]**
+IGD Multi-Monitor **[Enabled]**
+ 
+#### USB Configuration
+USB Controller **[Enabled]**
+XHCI Hand-off **[Enabled]**
+Legacy USB Support **[Enabled]**
+
+#### Super IO Configuration\ (COM) Port 0 configration
+Serial(COM) Port0 **[Enabled]**
+Serial(COM) Port= Settings **[Auto]**
+
+#### Power Management Setup
+ErP Ready **[Disabled]**
+Restore after AC Power Loss **[Power off]**
+System Power Fault Protection **[Disabled]**
+
+#### Windows OS Configuration
+Windows 8.1/10 WHQL Support **[Disabled]**
+Windows 7 Installation **[Disabled]**
+MSI Fastboot **[Disabled]**
+Fast Boot **[Disabled]**
+
+#### Wake Up Event Setup
+Setup Wake Up Configuration **[Bios]** 
+Resume By RTC Alarm **[Disabled]**
+Resume By PCI-E Device **[Disabled]**
+Resume By USB device **[Enabled]**
+Resume From S3/S4/S5 by PS/2 mouse **[Disabled]**
+Resume From S3/S4/S5 by PS/2 keyboard **[Disabled]**
+
+
 
 ### Special Config
 
@@ -71,13 +156,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 - SSDT for GC Titan Ridge V2
 - Drom flash for GC Titan Ridge V2
 
-See [ioreg](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg) for infos
-
-## Bios settings
-WIP
-
-
- 
+See [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg) for infos
 
 ## Credits
 
