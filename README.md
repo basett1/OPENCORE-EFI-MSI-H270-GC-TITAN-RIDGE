@@ -1,7 +1,9 @@
+[![](https://img.shields.io/badge/Gitter%20Ice%20Lake-Chat-informational?style=flat&logo=gitter&logoColor=white&color=ed1965)](https://gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community)
+[![](https://img.shields.io/badge/Gitter%20HL%20Community-Chat-informational?style=flat&logo=gitter&logoColor=white&color=ed1965)](https://gitter.im/Hackintosh-Life-IT/community)
 [![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 [![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
 [![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
-
+[![](https://img.shields.io/badge/PayPal-HackintoshLifeIT-informational?style=flat&logo=paypal&logoColor=white&color=00B2EE)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RWBVVWL8H9JC2&source=url)
 # H270 MSI GAMING M3 + I5 7600 + Thunderbolt 3 GC Titan Ridge :sunglasses:
 
 EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
@@ -19,7 +21,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
 | Ram              | 32 GB Corsair Vengeance                |
 | Wifi + Bluetooth | Fenvi t919                             |
 | Lan              | Killer™ E2500 Gigabit LAN              |
-| Thunderbolt 3    | GC Titan Ridge V2                      |
+| Thunderbolt 3    | GC Titan Ridge V2 NVM33 ELIAS64FR MOD  |
 | NVMe             | Samsung 970 evo plus 1TB ( MacOS)      |
 | SSD Sata         | Kingston SSD 1TB (Windows)             |
 | SSD Sata         | Kingston a400 2 TB (shared storage)    |
@@ -49,7 +51,8 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
 - [x] Recovery (macOS) boot from OpenCore
 - [x] Windows 10 boot from OpenCore
 - [x] Thunderbolt 3 GC Titan Ridge V2
-- [ ] Hotplug for GC Titan Ridge
+- [x] Thunderbolt Hotplug for GC Titan Ridge
+- [x] USB C Hotplug For GC Titan Ridge
 
 ## Peripherals & Benchmarks
 
@@ -156,6 +159,28 @@ Resume From S3/S4/S5 by PS/2 keyboard **[Disabled]**
 - SSDT for GC Titan Ridge V2
 - Drom flash for GC Titan Ridge V2
 
+# GC Titan Ridge Flash
+Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](link al firmware)
+**Although the DROM is for DESIGNARE Z390 it works on the GC TITAN RIDGE V2.0** [REFERENCE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/post-2226286)
+
+### Connect pin 3 and pin 5 of jumper for Hot Swap capability
+
+Lets now try connecting pin 3 and pin 5 of the THB_C Header Cable provided. Some folks have reported that without this their Mac freezes on boot. Have not noticed this issue on my end. [Reference Link](https://forums.macrumors.com/threads/testing-tb3-aic-with-mp-5-1.2143042/post-28261162).
+
+![image-jumper-wire](./images/image-jumper-wire.png)
+
+When connected the jumper from pin 3 to pin 5 should look like this.
+
+![image-jumper-pin3-pin5](./images/image-jumper-pin3-pin5.png)
+
+Connect this other end of the THB_C Header to the card into the J1 Header port of the card.
+
+Alternate approaches suggested by community:
+
+![image-jumper-pin3-pin5-alternate-1](./images/image-jumper-pin3-pin5-alternate-1.jpg)
+![image-jumper-pin3-pin5-alternate-2](./images/image-jumper-pin3-pin5-alternate-2.png)
+
+
 See [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg) for infos
 
 ## Credits
@@ -166,7 +191,8 @@ See [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iM
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
 - [Lorys89](https://github.com/Lorys89) for the continuous support and for the cfg lock tools and info
 - [MBarbierato](https://github.com/mbarbierato) for the support and the infos about thunderbolt
-- Caseysj for the thunderbolt nvm50 thunderbolt DROM
+- [Caseysj](https://github.com/CaseySJ) for the huge work on Thunderbolt
+- [Elias64Fr](https://www.tonymacx86.com/members/elias64fr.2347319/about) for the NVM33 modded firmware
 
 # If you need help please contact us on [Telegram](https://t.me/HackintoshLife_it) or [Web](https://www.hackintoshlife.it/)
 
