@@ -2,13 +2,11 @@
 [![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
 [![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
 
-# H270 MSI GAMING M3 + I5 7600 + Thunderbolt 3 GC Titan Ridge
+# H270 MSI GAMING M3 + I5 7600 + Thunderbolt 3 GC Titan Ridge :sunglasses:
 
 EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 
 ![descrizione](./Infos/pc.png)
-
-# The Motherboard don't have anythings related to Thunderbolt 3 but with our group we make it works :sunglasses: Just hotplug is WIP
 
 ### Computer Spec:
 
