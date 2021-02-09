@@ -34,6 +34,7 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
 ![infobigsur](./Infos/infomac.png)
 
 
+See the [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg)
 ### What works and What doesn't or WIP:
 
 - [x] CFG Unlock
@@ -196,15 +197,10 @@ Resume From S3/S4/S5 by PS/2 keyboard **[Disabled]**
 
 
 ### Special Config
-
 - Usb port mapping performed
-
 - Add ASMEDIA 2142 controller Kext
-
 - SSDT-Hack Essential patch
-
 - SSDT for GC Titan Ridge V2
-
 - Drom flash for GC Titan Ridge V2
 
 
@@ -232,8 +228,6 @@ Alternate approaches suggested by community:
 ![image-jumper-pin3-pin5-alternate-2](./images/image-jumper-pin3-pin5-alternate-2.png)
 
 
-See [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg) for infos
-
 ## Credits
 
 - [Apple](https://apple.com) for macOS.
@@ -244,6 +238,7 @@ See [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iM
 - [MBarbierato](https://github.com/mbarbierato) for the support and the infos about thunderbolt
 - [Caseysj](https://github.com/CaseySJ) for the huge work on Thunderbolt
 - [Elias64Fr](https://www.tonymacx86.com/members/elias64fr.2347319/about) for the NVM33 modded firmware
+- [Amey Rupji](https://github.com/ameyrupji) for the precious repo, full of infos about titan ridge. From him the idea of Titan Ridge on hack is started for me.
 
 # If you need help please contact us on [Telegram](https://t.me/HackintoshLife_it) or [Web](https://www.hackintoshlife.it/)
 
