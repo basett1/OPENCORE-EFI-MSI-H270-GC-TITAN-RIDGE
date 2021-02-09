@@ -58,7 +58,7 @@ See the [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/mai
 ## Peripherals & Benchmarks
 
 ![infohack](./Infos/peripherals.png)
-![infopci](./Infos/TB.png)
+![infopci](./Infos/TB33.png)
 ![CPU](./Infos/cputest.jpg)
 ![metal](./Infos/metal.jpg)
 ![opencl](./Infos/opencl.jpg)
