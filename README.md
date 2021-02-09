@@ -4,7 +4,7 @@
 
 # H270 MSI GAMING M3 + I5 7600 + Thunderbolt 3 GC Titan Ridge :sunglasses:
 
-EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
+EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
 
 ![descrizione](./Infos/pc.png)
 
