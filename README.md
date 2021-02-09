@@ -38,7 +38,7 @@ See the [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/mai
 ### What works and What doesn't or WIP:
 
 - [x] CFG Unlock
-- [x] Intel Graphics UHD iGPU (use for task only)
+- [x] Intel Graphics HD iGPU (use for task only)
 - [x] ALC1220 All jack activate
 - [x] ALC1220 Combo jack external
 - [x] All USB 3.1 Ports (ASM2142 controller)
@@ -156,7 +156,7 @@ Legacy USB Support **[Enabled]**
 
 Serial(COM) Port0 **[Enabled]**
 
-Serial(COM) Port= Settings **[Auto]**
+Serial(COM) Port0 Settings **[Auto]**
 
 
 #### Power Management Setup
@@ -205,14 +205,14 @@ Resume From S3/S4/S5 by PS/2 keyboard **[Disabled]**
 
 
 # GC Titan Ridge Flash
-Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE/blob/main/Thunderbolt%203%20DROM/DESIGNARE-Z390-NVM33-Elias64Fr.bin)
 
+Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE/blob/main/Thunderbolt%203%20DROM/DESIGNARE-Z390-NVM33-Elias64Fr.
 
 **Although the DROM is for DESIGNARE Z390 it works on the GC TITAN RIDGE V2.0** [REFERENCE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/post-2226286)
 
 ### Connect pin 3 and pin 5 of jumper for Hot Swap capability
 
-Lets now try connecting pin 3 and pin 5 of the THB_C Header Cable provided. Some folks have reported that without this their Mac freezes on boot. Have not noticed this issue on my end. [Reference Link](https://forums.macrumors.com/threads/testing-tb3-aic-with-mp-5-1.2143042/post-28261162).
+Connect pin 3 and pin 5 of the THB_C Header Cable provided for hotplug function. Here some [reference](https://forums.macrumors.com/threads/testing-tb3-aic-with-mp-5-1.2143042/post-28261162).
 
 ![image-jumper-wire](./images/image-jumper-wire.png)
 
