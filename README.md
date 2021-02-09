@@ -90,77 +90,128 @@ Type `EXIT` to return to Opencore Bootloader, Reset nvram and use VerifyMsrE2.ef
 XMP **[OFF]**
 
 ### SETTINGS\ADVANCED
+
 #### PCI Subsystem Settings
 
 PEG0 - Max Link Speed **[Auto]**
+
 PCI Latency Timer **[32 PCI Bus Clock]**
+
 Above 4g memory/Crypto Currency **[Disabled]**
 
+
 #### ACPI Settings
+
 Power LED **[Blinking]**
 
+
 #### Integrated Peripherals
+
 Onboard LAN Controller **[Enabled]**
+
 LAN Option ROM **[Disabled]**
+
 Network stacks **[Disabled]**
 
+
 SATA Mode **[AHCI Mode]**
+
 M.2/Optane Genie **[Disabled]**
+
 SATA 1|6 Hot Plug **[Disabled]**
+
 
 
 HD Audio Controller **[Enabled]**
 
+
 HPET **[Enabled]**
+
 
 Intel Serial I/O **[Disabled]**
 
+
 #### Integrated Graphics Configuration
+
 ##### I use an headless patch for iGPU just for Apple continuity services
+
 Initiate Graphics Adapter **[PEG]**
+
 Integrated Graphics Share Memory **[128M]**
+
 IGD Multi-Monitor **[Enabled]**
+
  
 #### USB Configuration
+
 USB Controller **[Enabled]**
+
 XHCI Hand-off **[Enabled]**
+
 Legacy USB Support **[Enabled]**
 
-#### Super IO Configuration\ (COM) Port 0 configration
+
+#### Super IO Configuration\ (COM) Port 0 configuration
+
 Serial(COM) Port0 **[Enabled]**
+
 Serial(COM) Port= Settings **[Auto]**
 
+
 #### Power Management Setup
+
 ErP Ready **[Disabled]**
+
 Restore after AC Power Loss **[Power off]**
+
 System Power Fault Protection **[Disabled]**
 
+
 #### Windows OS Configuration
+
 Windows 8.1/10 WHQL Support **[Disabled]**
+
 Windows 7 Installation **[Disabled]**
+
 MSI Fastboot **[Disabled]**
+
 Fast Boot **[Disabled]**
 
+
 #### Wake Up Event Setup
+
 Setup Wake Up Configuration **[Bios]** 
+
 Resume By RTC Alarm **[Disabled]**
+
 Resume By PCI-E Device **[Disabled]**
+
 Resume By USB device **[Enabled]**
+
 Resume From S3/S4/S5 by PS/2 mouse **[Disabled]**
+
 Resume From S3/S4/S5 by PS/2 keyboard **[Disabled]**
+
 
 
 
 ### Special Config
 
 - Usb port mapping performed
+
 - Add ASMEDIA 2142 controller Kext
+
 - SSDT-Hack Essential patch
+
 - SSDT for GC Titan Ridge V2
+
 - Drom flash for GC Titan Ridge V2
 
+
 # GC Titan Ridge Flash
-Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](link al firmware)
+Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE/blob/main/Thunderbolt%203%20DROM/DESIGNARE-Z390-NVM33-Elias64Fr.bin)
+
+
 **Although the DROM is for DESIGNARE Z390 it works on the GC TITAN RIDGE V2.0** [REFERENCE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/post-2226286)
 
 ### Connect pin 3 and pin 5 of jumper for Hot Swap capability
