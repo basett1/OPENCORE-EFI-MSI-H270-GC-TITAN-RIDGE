@@ -62,8 +62,8 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore bootloader
 ![opencl](./Infos/opencl.jpg)
 ![videoproc](./Infos/videoproc.png)
 
-# Bios settings
-# BIOS VERSION E7A62IMS.270 BUILD DATE 07/03/2018
+# BIOS
+## BIOS VERSION E7A62IMS.270 BUILD DATE 07/03/2018
 
 ## Disable cfg lock
 
@@ -83,6 +83,8 @@ Type `setup_var 0x526`to interrogate, the result is `Offset 0x526 is: 0x01` this
 Then type `setup_var 0x526 0x00`to write, the result is `Offset 0x526 is: 0x01 setting offset 0x526 to 0x00` this mean that the cfg lock is disabled
 
 Type `EXIT` to return to Opencore Bootloader, Reset nvram and use VerifyMsrE2.efi to check if the cfg lock is disabled.
+
+# BIOS SETTINGS
 
 XMP **[OFF]**
 
