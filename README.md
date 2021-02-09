@@ -206,7 +206,7 @@ Resume From S3/S4/S5 by PS/2 keyboard **[Disabled]**
 
 # GC Titan Ridge Flash
 
-Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE/blob/main/Thunderbolt%203%20DROM/DESIGNARE-Z390-NVM33-Elias64Fr.
+Follow this [GUIDE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1523#post-2079848) to flash the bios provided [here](https://github.com/basett1/OPENCORE-EFI-MSI-H270-GC-TITAN-RIDGE/blob/main/Thunderbolt%203%20DROM/)
 
 **Although the DROM is for DESIGNARE Z390 it works on the GC TITAN RIDGE V2.0** [REFERENCE](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/post-2226286)
 
