@@ -35,6 +35,8 @@ EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
 
 
 See the [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/main/iMac.ioreg)
+
+
 ### What works and What doesn't or WIP:
 
 - [x] CFG Unlock
@@ -60,6 +62,10 @@ See the [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/mai
 ![infohack](./Infos/peripherals.png)
 ![infopci](./Infos/TB33.png)
 ![CPU](./Infos/cputest.jpg)
+![TbDisk]./Infos/TB3NVME.jpg)
+This is the speed test of [Samsung 970 Evo Plus](https://www.samsung.com/uk/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/) mounted in a [SABRENT](https://www.sabrent.com/product/EC-T3NS/thunderbolt-3-to-m-2-nvme-ssd-tool-free-enclosure-ec-t3ns/) enclosure
+![InternalDisk]./Infos/InternalNVME.jpg)
+This is the speed test of internal [Samsung 970 Evo Plus](https://www.samsung.com/uk/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/)
 ![metal](./Infos/metal.jpg)
 ![opencl](./Infos/opencl.jpg)
 ![videoproc](./Infos/videoproc.png)
@@ -80,9 +86,9 @@ Declare tools in config.plist
 Reboot the system, when you are at Opencore run modGRUBShell.efi
 
 
-Type `setup_var 0x526`to interrogate, the result is `Offset 0x526 is: 0x01` this mean that the cfg lock is enabled
+Type `setup_var 0x526` to interrogate, the result is `Offset 0x526 is: 0x01` this mean that the cfg lock is enabled
 
-Then type `setup_var 0x526 0x00`to write, the result is `Offset 0x526 is: 0x01 setting offset 0x526 to 0x00` this mean that the cfg lock is disabled
+Then type `setup_var 0x526 0x00` to write, the result is `Offset 0x526 is: 0x01 setting offset 0x526 to 0x00` this mean that the cfg lock is disabled
 
 Type `EXIT` to return to Opencore Bootloader, Reset nvram and use VerifyMsrE2.efi to check if the cfg lock is disabled.
 
