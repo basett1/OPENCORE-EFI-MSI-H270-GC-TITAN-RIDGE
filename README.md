@@ -62,9 +62,9 @@ See the [IOREG](https://github.com/basett1/HACKINTOSH-MSI-H270-OPENCORE/blob/mai
 ![infohack](./Infos/peripherals.png)
 ![infopci](./Infos/TB33.png)
 ![CPU](./Infos/cputest.jpg)
-![TbDisk](./Infos/TB3NVME.jpg)
+![TbDisk](./Infos/TB3NVME.png)
 This is the speed test of [Samsung 970 Evo Plus](https://www.samsung.com/uk/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/) mounted in a [SABRENT](https://www.sabrent.com/product/EC-T3NS/thunderbolt-3-to-m-2-nvme-ssd-tool-free-enclosure-ec-t3ns/) enclosure
-![InternalDisk](./Infos/InternalNVME.jpg)
+![InternalDisk](./Infos/InternalNVME.png)
 This is the speed test of internal [Samsung 970 Evo Plus](https://www.samsung.com/uk/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/)
 ![metal](./Infos/metal.jpg)
 ![opencl](./Infos/opencl.jpg)
