@@ -10,6 +10,8 @@
 
 </div>
 
+# As of 28/03/2021 this repo is archived. The hardware is kept by [SPEEEDO](https://github.com/Speeedo83) then go to his [REPO](https://github.com/Speeedo83/MSI-H270-RX470_mod_570-Hackintosh) for update
+
 # H270 MSI GAMING M3 + I5 7600 + Thunderbolt 3 GC Titan Ridge :sunglasses:
 
 EFI H270 MSI GAMING M3 +I5 7600 with OpenCore 0.6.6 bootloader
